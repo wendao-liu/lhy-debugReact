@@ -47,6 +47,9 @@
     "postcss-safe-parser": "4.0.1",
     "react-app-polyfill": "^1.0.4",
     "react-dev-utils": "^9.1.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.2.0",
+    "react": "^16.11.0",
     "resolve": "1.12.0",
     "resolve-url-loader": "3.1.0",
     "sass-loader": "7.2.0",
@@ -137,5 +140,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.4"
   }
 }

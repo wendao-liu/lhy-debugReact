@@ -1,14 +1,9 @@
-import React, {Suspense} from 'react';
+import * as React from 'react';
 
-function Content({data}) {
-  return data.readRoot().content;
-}
 
-function App({data}) {
+function App() {
   return (
-    <Suspense fallback={<h1>Loading...</h1>}>
-      <Content data={data} />
-    </Suspense>
+    <div>222</div>
   );
 }
 
